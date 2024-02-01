@@ -1,0 +1,16 @@
+.LoginSection {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.statement {
+  font-family: serif;
+  font-size: 3.2rem;
+  width: 45vw;
+  margin-left: 3rem;
+  color: white;
+  line-height: 125%;
+}

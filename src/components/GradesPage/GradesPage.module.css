@@ -1,0 +1,102 @@
+.gradedAssignments {
+  margin: 3rem 0 3rem 4rem;
+  color: #102542;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.gaHeader {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.gaInfo {
+  margin-left: 2rem;
+  display: flex;
+  column-gap: 8rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.gaContent1 {
+  width: 2rem;
+}
+
+.gaContent2 {
+  width: 14rem;
+}
+
+.gaContent3 {
+  width: 4rem;
+}
+
+.viewAll {
+  margin-left: 5rem;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.cheer {
+  margin: 2rem 0 2rem 5rem;
+  font-weight: bolder;
+  color: #102542;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+.projectContainer {
+  margin: 3rem 5rem 5rem 5rem;
+  color: #102542;
+  display: flex;
+  flex-direction: column;
+}
+
+.projectHeader {
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding-bottom: 3rem;
+}
+
+.card {
+  align-self: center;
+  border: rgb(196, 206, 215) solid 1px;
+  border-radius: 8px;
+  width: 55vw;
+  display: flex;
+}
+
+.indicator {
+  align-self: center;
+  padding: 1.5rem;
+  margin: 1.5rem;
+  background-color: #e8e9ed;
+  border: #10254257 solid 1px;
+  border-radius: 3rem;
+  font-size: 1rem;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.cardContentHead {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.cardContentDetails {
+  display: flex;
+  column-gap: 2rem;
+  letter-spacing: 1px;
+  margin-right: 12rem;
+}
+
+.cardFinalgrades {
+  font-size: 1rem;
+  font-weight: bold;
+  align-self: center;
+  margin: auto;
+}

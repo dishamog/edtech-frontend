@@ -1,0 +1,36 @@
+.mainNav {
+  display: flex;
+  justify-content: space-between;
+  color: #102542;
+  align-items: center;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  filter: drop-shadow(grey 0px 1px 2px);
+  z-index: 99;
+}
+
+.logolink {
+  text-decoration: none;
+}
+
+.logo {
+  color: #102542;
+  font-size: 1.6rem;
+  font-weight: 900;
+  margin-left: 1.5rem;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  column-gap: 3rem;
+  margin-right: 1.5rem;
+}
+
+.links {
+  text-decoration: none;
+  color: #102542;
+  font-size: 1.1rem;
+}

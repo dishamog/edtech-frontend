@@ -1,0 +1,61 @@
+.LoginForm {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  row-gap: 0.5rem;
+  margin-right: 3rem;
+  border-radius: 8px;
+}
+
+.InputContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.1rem;
+  .forgot {
+    align-self: flex-end;
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.75);
+  }
+}
+
+.labels {
+  font-size: 0.9rem;
+}
+
+.InputBoxes {
+  width: 20vw;
+  height: 2.75rem;
+  padding-left: 0.5rem;
+  border-radius: 8px;
+  background-color: #e8e9ed;
+  border: none;
+}
+.InputBoxes:focus {
+  outline: none;
+}
+
+.SubmitButton {
+  width: 100%;
+  background-color: #0197f6;
+  color: white;
+  border: none;
+  height: 2.75rem;
+  border-radius: 8px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.GoogleLogin {
+  width: 100%;
+  border-radius: 8px;
+  height: 2.75rem;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.5rem;
+  border: black solid 0.5px;
+}

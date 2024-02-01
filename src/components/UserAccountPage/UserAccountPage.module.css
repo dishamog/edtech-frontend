@@ -1,0 +1,103 @@
+.userInfo {
+  height: 300px;
+  width: 1540px;
+  background-image: linear-gradient(#9719dd02, #25c3ed25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2rem;
+}
+
+.infoText {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+.userName {
+  font-size: 2rem;
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.userLocation {
+  font-size: 1rem;
+  /* color: rgba(0, 0, 0, 0.75); */
+  padding-bottom: 1rem;
+}
+
+.userCategory {
+  background-color: #ffffff;
+  padding: 0.4rem 2rem 0.4rem 2rem;
+  max-width: 7.5rem;
+  border-radius: 4px;
+  border: #10254230 solid 0.5px;
+}
+
+.userNav {
+  margin-left: 2.5rem;
+  position: relative;
+  top: -24px;
+}
+
+.logout {
+  text-decoration: none;
+  color: black;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  column-gap: 4rem;
+  font-size: 1.2rem;
+}
+
+.edit {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  justify-content: center;
+  max-width: 40vw;
+  margin: auto;
+}
+
+.editImage {
+  display: flex;
+  column-gap: 1rem;
+  align-items: center;
+  align-self: center;
+}
+
+/* .mySvg {
+  filter: drop-shadow(rgba(0, 0, 0, 0.4) 0px 2px 2px);
+} */
+
+.uploadNew {
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  text-decoration: underline;
+}
+
+.editElse {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputFields {
+  background-color: #e8e9ed;
+  border: transparent;
+  border-radius: 8px;
+  height: 2.2rem;
+  padding: 0 1rem 0 1rem;
+  margin-bottom: 1rem;
+  filter: drop-shadow(rgba(0, 0, 0, 0.4) 2px 2px 1px);
+}
+
+.editSave {
+  border: transparent;
+  border-radius: 4px;
+  width: 8rem;
+  height: 2rem;
+  align-self: flex-end;
+  background-color: #e8e9ed;
+  filter: drop-shadow(rgba(0, 0, 0, 0.4) 2px 2px 1px);
+}

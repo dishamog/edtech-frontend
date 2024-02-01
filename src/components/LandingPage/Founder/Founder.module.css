@@ -1,0 +1,29 @@
+.Founder {
+  background-color: #e8e9ed;
+  display: flex;
+  padding: 3rem;
+  justify-content: center;
+  column-gap: 10rem;
+}
+
+.founderName {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #102542;
+}
+
+.founderTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #102542;
+  /* padding-top: 0.5rem; */
+}
+
+.founderSpeech {
+  font-size: 1rem;
+  letter-spacing: 1.2px;
+  color: #102542;
+  width: 35vw;
+  padding: 2rem 0 0 0;
+}

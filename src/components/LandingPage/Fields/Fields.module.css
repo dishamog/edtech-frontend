@@ -1,0 +1,37 @@
+.FieldsContainer {
+  background-color: white;
+}
+
+.Scholarship {
+  background-color: #102542;
+  color: white;
+  font-weight: 500;
+  font-size: 1.4rem;
+  display: inline-flex;
+  transform: rotate(-90deg);
+  position: relative;
+  right: 100px;
+  top: 98px;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+.Fields {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 10rem;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.text {
+  color: #102542;
+  font-size: 1.2rem;
+
+  padding: 1rem 0 2.2rem 0;
+}

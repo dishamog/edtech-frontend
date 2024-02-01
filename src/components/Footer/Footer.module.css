@@ -1,0 +1,21 @@
+.Footer {
+  background-color: #e8e9ed;
+  padding: 3rem;
+}
+
+.footerHeader {
+  color: #102542;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.emailContact {
+  color: #102542;
+  font-size: 1.4rem;
+  padding: 2rem 0 2rem 0;
+}
+
+.socials {
+  display: flex;
+  column-gap: 2rem;
+}

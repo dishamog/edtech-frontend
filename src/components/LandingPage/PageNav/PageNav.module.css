@@ -1,0 +1,18 @@
+.PageNav {
+  background-color: #e8e9ed;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  column-gap: 12rem;
+}
+
+.listItem {
+  font-family: serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 0.5rem 0 0.5rem 0;
+  color: #102542;
+}
