@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./CourseSelection.module.css";
+import Carousel from "@/components/CarouselComp";
 
 const CourseSelection = () => {
   return (
@@ -12,7 +13,9 @@ const CourseSelection = () => {
       </ul>
 
       <hr className={styles.horizontalRule} />
-      <div className={styles.courseCarousel}> There is a Carousel here</div>
+      <div className={styles.courseCarousel}>
+        <Carousel />
+      </div>
     </div>
   );
 };

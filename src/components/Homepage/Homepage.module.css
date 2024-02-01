@@ -102,6 +102,18 @@
   margin-left: 49vw;
 }
 
+.recommendedCourses {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.carousels {
+  justify-self: center;
+  align-self: center;
+  /* margin: 2rem 5rem 0 5rem; */
+}
+
 .lastrule {
   width: 65vw;
   margin: auto;

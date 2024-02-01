@@ -1,0 +1,13 @@
+.control {
+  &[data-inactive] {
+    opacity: 0;
+    cursor: default;
+  }
+  background-color: black;
+  color: white;
+}
+
+.controls {
+  width: 110%;
+  left: -5%;
+}

@@ -12,6 +12,13 @@
   margin-left: 10vw;
 }
 
+.courseCarousel {
+  display: flex;
+  justify-content: center;
+  /* column-gap: 0.5rem; */
+  padding-top: 2rem;
+}
+
 .list {
   list-style: none;
   display: flex;

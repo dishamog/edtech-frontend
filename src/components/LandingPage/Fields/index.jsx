@@ -9,7 +9,7 @@ const Fields = () => {
       <div className={styles.Fields}>
         <div className={styles.items}>
           <Image
-            src="/fieldImage1.png"
+            src="/images/fieldImage1.png"
             width={125}
             height={125}
             alt="field icons"
@@ -18,7 +18,7 @@ const Fields = () => {
         </div>
         <div className={styles.items}>
           <Image
-            src="/fieldImage2.png"
+            src="/images/fieldImage2.png"
             width={125}
             height={125}
             alt="field icons"
@@ -27,7 +27,7 @@ const Fields = () => {
         </div>
         <div className={styles.items}>
           <Image
-            src="/fieldImage3.png"
+            src="/images/fieldImage3.png"
             width={125}
             height={125}
             alt="field icons"
@@ -36,7 +36,7 @@ const Fields = () => {
         </div>
         <div className={styles.items}>
           <Image
-            src="/fieldImage4.png"
+            src="/images/fieldImage4.png"
             width={125}
             height={125}
             alt="field icons"

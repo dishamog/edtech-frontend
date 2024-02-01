@@ -37,7 +37,7 @@ const Homepage = () => {
       </div>
       <div className={styles.recommendedCourses}>
         <p className={styles.recommendedHead}>Recommended for you</p>
-        <div>
+        <div className={styles.carousels}>
           <Carousel />
         </div>
       </div>
@@ -98,12 +98,12 @@ const Homepage = () => {
         xmlns="http://www.w3.org/2000/svg"
         className={styles.dropSvg}
       >
-        <g clip-path="url(#clip0_130_21)">
+        <g clipPath="url(#clip0_130_21)">
           <path
             d="M47.3715 49.9718L48 50.4796L48.6285 49.9718L66.3593 35.6461L70.4109 38.9268L48 57.0733L25.5891 38.9268L29.6407 35.6461L47.3715 49.9718Z"
             stroke="black"
-            stroke-opacity="0.4"
-            stroke-width="2"
+            strokeOpacity="0.4"
+            strokeWidth="2"
           />
         </g>
         <defs>

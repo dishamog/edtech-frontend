@@ -15,7 +15,7 @@ const Founder = () => {
         </div>
       </div>
       <Image
-        src="/founder.png"
+        src="/images/founder.png"
         width={225}
         height={272}
         className={styles.founderImage}
